@@ -35,5 +35,15 @@ namespace WinFormsApp3
         {
             pictureBox1.Image = Properties.Resources.수원대7;
         }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.None;
+        }
     }
 }

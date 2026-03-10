@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             Label label1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label3 = new Label();
@@ -55,10 +56,11 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.White;
-            pictureBox1.Image = Properties.Resources.emblem_01;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(12, 46);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(226, 226);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 

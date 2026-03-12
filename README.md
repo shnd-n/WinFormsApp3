@@ -3,9 +3,10 @@
 - 이름 : 임종찬
 - 핵심기능: 배경색 랜덤 변경,github 연결
 
+<img width="793" height="472" alt="스크린샷 2026-03-12 103416" src="https://github.com/user-attachments/assets/e20c625e-70d1-44a9-979a-f7fb761c453a" />
 
-<img width="792" height="471" alt="스크린샷 2026-03-10 214602" src="https://github.com/user-attachments/assets/6332f494-715d-42d2-ae62-daa5010bbe23" />
 
 구현하면서 배운 점
+
 - RGB 개념을 배우며 랜덤 색상 변경 기능을 넣을 수 있었습니다.
 - 버튼을 눌렀을 때 어떻게 코드를 짜야 동작을 할 수 있을지 이해할 수 있었습니다.
